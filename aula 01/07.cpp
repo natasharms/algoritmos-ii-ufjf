@@ -49,7 +49,5 @@ int main()
 
     tabela(n);
 
-
-
     return 0;
 }
