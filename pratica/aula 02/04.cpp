@@ -24,7 +24,7 @@ int main(){
     troca(ptA, ptB);
 
     cout << "\na: " << a << endl;
-    cout << "b:" << b << endl;
+    cout << "b: " << b << endl;
 
     return 0;
 }
