@@ -1,3 +1,5 @@
+// Dados dois numeros inteiros num e div, faca uma funcao para calcular e retornar o quociente e o resto da divisao inteira de num por div
+
 #include <iostream>
 
 using namespace std;
@@ -12,10 +14,10 @@ int main(){
     int a = 10;
     int b = 2;
     int quoc;
-    int resto;
+    int resto; 
+
     int *q = &quoc;
     int *r = &resto;
-
     divisao(a, b, q, r);
 
     cout << "a: " << a << endl;
