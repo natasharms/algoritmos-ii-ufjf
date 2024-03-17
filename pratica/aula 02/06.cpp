@@ -7,18 +7,18 @@ using namespace std;
 bool func(int tam, int vet[], int *par, int *impar, int *negativos){
 
     for(int i = 0; i < tam; i++) {
-        if(vet[i] % 2 == 0) {
+        if(vet[i] % 2 == 0) { // conte o total de elementos pares
             (*par)++;
-        } else {
+        } else { // conte o total de elementos  ́ımpares
             (*impar)++;
         }
 
-        if(vet[i] < 0) {
+        if(vet[i] < 0) { // conte o total de elementos negativos
             (*negativos)++;
         }
     }
 
-    return *negativos > 0;
+    return *negativos > 0; // retorne verdadeiro se existirem numeros negativos
 }
 
 int main(){
